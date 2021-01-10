@@ -1,10 +1,9 @@
 # Laravel-nao-Portfolio
 Larabel と React でホームページを作成しました
-[Link](http://nameless-reaches-64760.herokuapp.com/)
+[Link](https://nameless-reaches-64760.herokuapp.com/)
 
-※ http接続します
 
 # Todo
-- Https接続に対応する
-- CSSをReactに移植する
+- ~~Https接続に対応する~~ Done! 2020/01/11
+- ~~CSSをReactに移植する~~ Done! 2020/01/11
 - コンテンツを充実させる
