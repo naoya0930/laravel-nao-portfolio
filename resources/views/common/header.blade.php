@@ -19,9 +19,11 @@
 <![endif]-->
 @if(app('env')=='local')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="icon" href="{{asset('image/40309813.gif')}}" >
 @endif
 @if(app('env')=='production')
     <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+    <link rel="icon" href="{{secure_asset('image/40309813.gif')}}" >
 @endif
 </head>
 <body>
