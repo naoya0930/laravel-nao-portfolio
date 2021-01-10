@@ -17,7 +17,12 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
 <![endif]-->
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+@if(app('env')=='local')
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+@endif
+@if(app('env')=='production')
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+@endif
 </head>
 <body>
 @stop
